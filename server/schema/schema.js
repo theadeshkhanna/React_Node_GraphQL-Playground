@@ -28,6 +28,24 @@ var books = [
         name: "The Long Earth",
         genre: "Sci-Fi",
         authorId: "3"
+    },
+    {
+        id: "4",
+        name: "The Hero of Ages",
+        genre: "Fantasy",
+        authorId: "2"
+    },
+    {
+        id: "5",
+        name: "The Color of Magic",
+        genre: "Fantasy",
+        authorId: "3"
+    },
+    {
+        id: "6",
+        name: "The Light Fantasy",
+        genre: "Fantasy",
+        authorId: "3"
     }
 ]
 
