@@ -6,19 +6,19 @@ const { GraphQLObjectType, GraphQLString, GraphQLSchema } = graphql;
 // Dummy data
 var books = [
     {
+        id: "1",
         name: "Name of the Wind",
         genre: "Fantasy",
-        id: 1
     },
     {
+        id: "2",
         name: "The Final Empire",
-        genre: "Fantasy",
-        id: 2
+        genre: "Fantasy"
     },
     {
+        id: "3",
         name: "The Long Earth",
-        genre: "Sci-Fi",
-        id: 3
+        genre: "Sci-Fi"
     }
 ]
 
@@ -59,5 +59,5 @@ const RootQuery = new GraphQLObjectType({
 });
 
 module.exports = new GraphQLSchema({
-    root: RootQuery
+    query: RootQuery
 });
